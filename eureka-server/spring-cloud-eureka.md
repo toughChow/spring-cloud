@@ -183,7 +183,7 @@ public class EurekaClientApplication {
 
 #### 配置application.properties
 
-通过spring.application.name属性，可以指定微服务的名称以便后续调用的时候只需要使用该名称就可以进行服务的访问。eureka.client.serviceUrl.defaultZone属性对应服务注册中心的配置内容，制定服务中心的位置。
+通过spring.application.name属性，可以指定微服务的名称以便后续调用的时候只需要使用该名称就可以进行服务的访问。eureka.client.serviceUrl.defaultZone属性对应服务注册中心的配置内容，指定服务中心的位置。
 
 ```xml
 spring.application.name=eureka-client-tough
