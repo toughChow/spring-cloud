@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/toughChow/Config.git/
+          username: toughchow@gmail.com
+          password: Betough3
+server:
+  port: 1201
